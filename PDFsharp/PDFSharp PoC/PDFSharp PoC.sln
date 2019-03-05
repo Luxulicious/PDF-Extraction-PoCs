@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSharp PoC", "PDFSharp PoC\PDFSharp PoC.csproj", "{4B8EEEBD-DE35-4130-B9C0-373A52A8F2A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp", "..\src\PdfSharp\PdfSharp.csproj", "{5A6055BC-BF86-4FDD-9F62-0109DB7A303B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTablesFromPdf.Engine", "..\BuildTablesFromPdf\BuildTablesFromPdf.Engine\BuildTablesFromPdf.Engine.csproj", "{9883FA0A-CB8E-4053-A3E9-58FFE5269320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTablesFromPdf.Renderer", "..\BuildTablesFromPdf\BuildTablesFromPdf.Renderer\BuildTablesFromPdf.Renderer.csproj", "{DF805107-8789-4B69-8BE0-74AAF113AC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTablesFromPdf.Console", "..\BuildTablesFromPdf\BuildTablesFromPdf.Console\BuildTablesFromPdf.Console.csproj", "{4079BDE2-6CAD-43C3-8C1B-A134840D95C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B8EEEBD-DE35-4130-B9C0-373A52A8F2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8EEEBD-DE35-4130-B9C0-373A52A8F2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8EEEBD-DE35-4130-B9C0-373A52A8F2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8EEEBD-DE35-4130-B9C0-373A52A8F2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6055BC-BF86-4FDD-9F62-0109DB7A303B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6055BC-BF86-4FDD-9F62-0109DB7A303B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6055BC-BF86-4FDD-9F62-0109DB7A303B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6055BC-BF86-4FDD-9F62-0109DB7A303B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9883FA0A-CB8E-4053-A3E9-58FFE5269320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9883FA0A-CB8E-4053-A3E9-58FFE5269320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9883FA0A-CB8E-4053-A3E9-58FFE5269320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9883FA0A-CB8E-4053-A3E9-58FFE5269320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF805107-8789-4B69-8BE0-74AAF113AC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF805107-8789-4B69-8BE0-74AAF113AC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF805107-8789-4B69-8BE0-74AAF113AC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF805107-8789-4B69-8BE0-74AAF113AC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4079BDE2-6CAD-43C3-8C1B-A134840D95C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4079BDE2-6CAD-43C3-8C1B-A134840D95C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4079BDE2-6CAD-43C3-8C1B-A134840D95C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4079BDE2-6CAD-43C3-8C1B-A134840D95C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {651891D3-0AEB-4953-9E08-001D2B58CADC}
+	EndGlobalSection
+EndGlobal
