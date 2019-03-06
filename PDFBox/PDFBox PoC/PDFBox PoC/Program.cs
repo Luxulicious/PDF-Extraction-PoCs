@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ikvm.extensions;
+using java.lang;
 using java.util;
 using org.apache.pdfbox.pdmodel;
 using org.apache.pdfbox.util;
+using Exception = System.Exception;
+using String = System.String;
 
 namespace PDFBox_PoC
 {
@@ -14,12 +18,12 @@ namespace PDFBox_PoC
         static void Main(string[] args)
         {
             var path =
-                "C:/Users/t.ruijs/Documents/GitHub/PDF-Extraction-PoCs/PDFBox PoC/Example PDFs/sample.pdf";
+                "C:\\Users\\t.ruijs\\Documents\\GitHub\\PDF-Extraction-PoCs\\Example PDFs\\sample.pdf";
             var text = ExtractTextFromPdf(path);
             Console.WriteLine("Extracted text:\n\n" + text + "\n\n");
-            //Console.WriteLine(GetPDDocument(path).getDocumentCatalog());
+            Console.WriteLine(GetPDDocument(path).getDocumentCatalog().toString());
 
-            Something(path);
+            WriteTextFromPDF(path);
             var key = Console.ReadKey();
         }
 
@@ -41,7 +45,7 @@ namespace PDFBox_PoC
             }
         }
 
-        private static void Something(string path)
+        private static void WriteTextFromPDF(string path)
         {
             var doc = GetPDDocument(path);
             PDFTextExtractor pdfTextExtractor = new PDFTextExtractor();
