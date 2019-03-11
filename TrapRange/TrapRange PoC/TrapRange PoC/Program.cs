@@ -57,26 +57,5 @@ namespace TrapRange_PoC
                 .extract();
              return tables.get(0).toString();//table in csv format using semicolon as a delimiter 
         }
-
-        public static string GetPlainTextFromPdf(string path)
-        {
-            return "";
-            /*if (string.IsNullOrEmpty(path))
-                path = defaultPath;
-            PDDocument doc = null;
-            try
-            {
-                doc = PDDocument.load(new File);
-                PDFTextStripper stripper = new PDFTextStripper();
-                return stripper.getText(doc);
-            }
-            finally
-            {
-                if (doc != null)
-                {
-                    doc.close();
-                }
-            }*/
-        }
     }
 }
