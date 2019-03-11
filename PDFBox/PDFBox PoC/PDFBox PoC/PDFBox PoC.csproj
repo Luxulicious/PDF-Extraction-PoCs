@@ -49,109 +49,109 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="bcmail-jdk15-1.44">
-      <HintPath>bin\DLL\bcmail-jdk15-1.44.dll</HintPath>
+      <HintPath>..\..\DLL\bcmail-jdk15-1.44.dll</HintPath>
     </Reference>
     <Reference Include="bcprov-jdk15-1.44">
-      <HintPath>bin\DLL\bcprov-jdk15-1.44.dll</HintPath>
+      <HintPath>..\..\DLL\bcprov-jdk15-1.44.dll</HintPath>
     </Reference>
     <Reference Include="commons-logging">
-      <HintPath>bin\DLL\commons-logging.dll</HintPath>
+      <HintPath>..\..\DLL\commons-logging.dll</HintPath>
     </Reference>
     <Reference Include="fontbox-1.8.7">
-      <HintPath>bin\DLL\fontbox-1.8.7.dll</HintPath>
+      <HintPath>..\..\DLL\fontbox-1.8.7.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>bin\DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>..\..\DLL\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="icu4j-3.8">
-      <HintPath>bin\DLL\icu4j-3.8.dll</HintPath>
+      <HintPath>..\..\DLL\icu4j-3.8.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.AWT.WinForms">
-      <HintPath>bin\DLL\IKVM.AWT.WinForms.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.AWT.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Beans">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Beans.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Beans.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Charsets">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Charsets.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Charsets.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Corba">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Corba.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Corba.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Core">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Core.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Jdbc">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Jdbc.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Jdbc.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Management">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Management.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Media">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Media.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Media.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Misc">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Misc.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Misc.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Naming">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Naming.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Naming.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Remoting">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Remoting.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Remoting.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Security">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Security.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Security.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.SwingAWT">
-      <HintPath>bin\DLL\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.SwingAWT.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Text">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Text.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Tools">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Tools.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Tools.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Util">
-      <HintPath>bin\DLL\IKVM.OpenJDK.Util.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.Util.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.API">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.API.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.API.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Bind">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.Bind.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Crypto">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Parse">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.Parse.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.Transform">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.Transform.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.WebServices">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.XML.XPath">
-      <HintPath>bin\DLL\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.OpenJDK.XML.XPath.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.Reflection">
-      <HintPath>bin\DLL\IKVM.Reflection.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.Runtime">
-      <HintPath>bin\DLL\IKVM.Runtime.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.Runtime.JNI">
-      <HintPath>bin\DLL\IKVM.Runtime.JNI.dll</HintPath>
+      <HintPath>..\..\DLL\IKVM.Runtime.JNI.dll</HintPath>
     </Reference>
     <Reference Include="jempbox-1.8.7">
-      <HintPath>bin\DLL\jempbox-1.8.7.dll</HintPath>
+      <HintPath>..\..\DLL\jempbox-1.8.7.dll</HintPath>
     </Reference>
     <Reference Include="junit">
-      <HintPath>bin\DLL\junit.dll</HintPath>
+      <HintPath>..\..\DLL\junit.dll</HintPath>
     </Reference>
     <Reference Include="pdfbox-1.8.7">
-      <HintPath>bin\DLL\pdfbox-1.8.7.dll</HintPath>
+      <HintPath>..\..\DLL\pdfbox-1.8.7.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
