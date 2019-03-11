@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using java.util;
+using org.apache.pdfbox.pdmodel;
+using org.apache.pdfbox.text;
 
 namespace Tabula_PoC
 {
