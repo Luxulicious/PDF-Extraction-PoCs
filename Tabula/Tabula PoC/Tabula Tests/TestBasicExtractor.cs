@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using java.lang;
 using java.util;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -21,11 +22,10 @@ namespace Tabula_Tests
                 732.6f);
             BasicExtractionAlgorithm bea = new BasicExtractionAlgorithm();
             Table table = (Table) bea.extract(page).get(0);
-            var firstRow = table.getRows().get(0);
-            Console.WriteLine(firstRow.ToString());
-            var typedFirstRow = (java.util.ArrayList)firstRow;
-            Assert.IsTrue(typedFirstRow.get(1).ToString().Contains("ALLEGIANT AIR"));
-            Assert.IsTrue(typedFirstRow.get(2).ToString().Contains("ALLEGIANT AIR LLC"));
+            //Due to not being able to use type parameters in java IKVM.NET multiple conversions have to happen
+            var firstRow = (RectangularTextContainer[])((java.util.ArrayList)table.getRows().get(0)).toArray();
+            Assert.IsTrue(firstRow[1].getText().Equals("ALLEGIANT AIR"));
+            Assert.IsTrue(firstRow[2].getText().Equals("ALLEGIANT AIR LLC"));
         }
     }
 }
