@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestBasicExtractor.cs" />
+    <Compile Include="TestTableDetection.cs" />
     <Compile Include="UtilsForTesting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
