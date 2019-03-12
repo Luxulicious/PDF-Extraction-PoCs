@@ -1,16 +1,13 @@
-﻿using System.Collections.Generic;
+﻿//Ported from: https://github.com/tabulapdf/tabula-java/blob/master/src/test/java/technology/tabula/UtilsForTesting.java
+using System.Collections.Generic;
 using java.io;
-using java.lang;
-using java.nio.charset;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using org.apache.commons.csv;
 using org.apache.pdfbox.pdmodel;
 using technology.tabula;
 using String = System.String;
 
 namespace Tabula_Tests
 {
-    /*[TestClass]*/
     public class UtilsForTesting
     {
         public static string defaultPath =
@@ -76,7 +73,6 @@ namespace Tabula_Tests
                     rv[i,j] = table.getCell(i, j).getText();
                 }
             }
-
             return rv;
         }
     }
