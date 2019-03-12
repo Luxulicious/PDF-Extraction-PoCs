@@ -22,7 +22,7 @@ namespace Tika_PoC
             Console.WriteLine("Contents of PDF: \n" + TextExtractor.GetPlainTextFromPDF(path));
             Console.WriteLine("\n------------------------------------------\n");
             Console.WriteLine("Detected Language: \n" + TextExtractor.GetLanguageFromPDF(path));
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 

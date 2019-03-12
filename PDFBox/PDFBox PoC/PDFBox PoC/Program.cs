@@ -18,13 +18,13 @@ namespace PDFBox_PoC
         static void Main(string[] args)
         {
             var path =
-                "C:\\Users\\t.ruijs\\Documents\\GitHub\\PDF-Extraction-PoCs\\Example PDFs\\sample.pdf";
+                "C:/Users/t.ruijs/Documents/GitHub/PDF-Extraction-PoCs/Example PDFs/factuur 2018-0137.pdf";
             var text = ExtractTextFromPdf(path);
             Console.WriteLine("Extracted text:\n\n" + text + "\n\n");
             Console.WriteLine(GetPDDocument(path).getDocumentCatalog().toString());
 
             WriteTextFromPDF(path);
-            var key = Console.ReadKey();
+            var key = Console.ReadLine();
         }
 
         private static string ExtractTextFromPdf(string path)
