@@ -21,10 +21,11 @@ namespace TrapRange_PoC
 
         static void Main(string[] args)
         {
-            Console.WriteLine("\n" + "010003576.pdf");
-            Console.WriteLine(WriteTablesToCSV(defaultPath + "010003576.pdf", "010003576.txt"));
+            Console.WriteLine("\n" + "voorbeeld-word-factuur.pdf");
+            Console.WriteLine(WriteTablesToCSV("C:\\Users\\t.ruijs\\Documents\\GitHub\\PDF-Extraction-PoCs\\Example PDFs\\voorbeeld-word-factuur.pdf", "010003576.txt"));
 
 
+/*
             Console.WriteLine("\n" + "2018-0137.pdf");
             Console.WriteLine(WriteTablesToCSV(defaultPath + "2018-0137.pdf", "2018-0137.txt"));
         
@@ -34,6 +35,7 @@ namespace TrapRange_PoC
 
             Console.WriteLine("\n" + "sample.pdf");
             Console.WriteLine(WriteTablesToCSV(defaultPath + "sample.pdf", "sample.txt"));
+*/
 
 
             Console.ReadLine();

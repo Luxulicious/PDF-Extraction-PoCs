@@ -14,7 +14,7 @@ namespace Tika_PoC
     class Program
     {
         public static string path =
-            "C:/Users/t.ruijs/Documents/GitHub/PDF-Extraction-PoCs/Example PDFs/factuur 2018-0137.pdf";
+            "C:/Users/t.ruijs/Documents/GitHub/PDF-Extraction-PoCs/Example PDFs/2018-0137.pdf";
 
         static void Main(string[] args)
         {
